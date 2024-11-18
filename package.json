@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"playwright": "^1.48.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.9.0",
+		"ts-node": "^10.9.2"
+	}
+}
