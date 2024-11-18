@@ -1,9 +1,16 @@
 {
-	"dependencies": {
-		"playwright": "^1.48.2"
-	},
-	"devDependencies": {
-		"@types/node": "^22.9.0",
-		"ts-node": "^10.9.2"
-	}
+  "name": "scrape-own-ec",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/scrape.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.48.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  }
 }
