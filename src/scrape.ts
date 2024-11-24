@@ -106,7 +106,7 @@ async function writeGoogleSpreadSheet(productList: ProductList, label: string) {
   // シートが存在しない場合は新規作成
   const isExistSheet = !!doc.sheetsByTitle[sheetTitle]
   if (!isExistSheet) {
-    await doc.addSheet({ sheetTitle, headerValues: [PRODUCT_LIST.PRODUCT_NAME, PRODUCT_LIST.BRAND_NAME, PRODUCT_LIST.RELEASE_DATE] });
+    await doc.addSheet({ title: sheetTitle, headerValues: [PRODUCT_LIST.PRODUCT_NAME, PRODUCT_LIST.BRAND_NAME, PRODUCT_LIST.RELEASE_DATE] });
   } 
 
   const sheet = doc.sheetsByTitle[sheetTitle];
